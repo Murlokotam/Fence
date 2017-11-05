@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="swClientServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Client/Server"
+        />
+
+    <SwitchPreference
+        android:key="swAutodetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Autodect movement"/>
+
+    <SwitchPreference
+        android:key="swCalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Aufnahme nach Kalendar" />
+
+</PreferenceScreen>

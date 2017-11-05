@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergey.fence.preferences.ServerPreferenceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Switch
+            android:id="@+id/swClientServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textOff="Server"
+            android:textOn="Client"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/swAutodetect"
+            android:layout_marginEnd="58dp"
+            app:layout_constraintRight_toRightOf="@+id/swAutodetect"
+            android:layout_marginBottom="43dp" />
+
+        <Switch
+            android:id="@+id/swAutodetect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autodect movement"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="193dp"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/swCalender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aufnahme nach Kalendar"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="31dp"
+            app:layout_constraintTop_toBottomOf="@+id/swAutodetect"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</FrameLayout>

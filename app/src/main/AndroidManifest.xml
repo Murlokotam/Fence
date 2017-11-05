@@ -27,9 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".camera.SettingsCamActivity"
-            android:label="@string/title_activity_settings_cam"></activity>
+        <activity android:name=".preferences.ServerPreference" />
     </application>
 
 </manifest>
